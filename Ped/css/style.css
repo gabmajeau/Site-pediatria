@@ -1,0 +1,151 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: georgia;
+  background-color: #c1ccd6;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  transition: 0.4s;
+}
+
+a:hover {
+  color: rgb(64, 160, 224);
+}
+
+#navbar {
+  padding: 1.5rem 2.5rem;
+  border-bottom: 2px solid #000000;
+}
+
+#navbar-inner {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+#nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+#nav-links li {
+  padding: 0.3rem;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 3px;
+}
+
+#nav-links li:hover {
+  transition: 0.4s;
+  padding: 0.3rem;
+  border: 2px solid rgb(64, 160, 224);
+  border-radius: 3px;
+}
+
+.container {
+  display: flex;
+  gap: 3rem;
+  padding: 2rem 2.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#posts-container {
+  flex: 3 1 0;
+}
+
+.post {
+  margin-bottom: 2.5rem;
+}
+
+.post img {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+}
+
+.title,
+.description,
+.author {
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+}
+.author {
+  color: #333;
+  font-weight: bold;
+}
+
+#sidebar {
+  flex: 1 1 0;
+}
+
+#search-bar,
+#categories {
+  padding: 1.5rem;
+  border: 2px solid #000000;
+  margin-bottom: 1rem;
+  border-radius: 2px;
+}
+
+#search-bar h4,
+#categories h4 {
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+}
+
+#search-bar form {
+  display: flex;
+}
+
+#search-bar input {
+  padding: 0.5rem 1rem;
+  border: 2px solid #000000;
+  border-radius: 2px;
+}
+
+#search-bar input[type="submit"] {
+  cursor: pointer;
+  background-color: rgb(33, 124, 228);
+  color: #ffffff;
+  border: none;
+}
+
+#search-bar input[type="submit"]:hover {
+  transition: 0.4s;
+  cursor: pointer;
+  background-color: rgb(107, 156, 212);
+  color: #ffffff;
+  border: none;
+}
+
+#categories li {
+  margin-bottom: 1rem;
+}
+
+#footer {
+  border-top: 2px solid #030303;
+  padding: 3rem;
+  text-align: center;
+}
+
+#footer h2,
+#footer p {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 450px) {
+  * {
+    flex-wrap: wrap;
+  }
+}
