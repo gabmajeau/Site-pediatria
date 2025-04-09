@@ -1,22 +1,20 @@
-🩺 Mini Medical Advice Blog
-This is a simple website built with HTML and CSS, created to share basic child healthcare tips with families in a clear and friendly way.
+# 🩺 Mini Medical Advice Blog - Dr. Helen Figuereido de Parolis
 
-💡 Features
-Home page with a brief presentation of the doctor and health topics like fever, viruses, colds, and injuries.
+This is a simple and informative website developed using **HTML** and **CSS**, designed to share basic health care tips for children in a clear and friendly way.
 
-Easy navigation through medical guidance.
+## 💡 Features
 
-Direct contact buttons via WhatsApp and Instagram.
+- **Home page** with an introduction of Dr. Helen and guidance on common topics like:
+  - Fever  
+  - Viral infections  
+  - Colds  
+  - Injuries  
+  - Nasal washing and more  
+- Clean navigation for reading tips easily  
+- Contact buttons via **WhatsApp** and **Instagram**
 
-🚀 How to Use
-Clone the repository:
+## 🚀 How to Use
 
-git clone https://github.com/your-username/your-repository-name.git
-
-Open the index.html file in your browser.
-
-📱 Contact
-Dr. Helen Figuereido de Parolis
-WhatsApp | Instagram
-
-This project was in development!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repository-name.git
