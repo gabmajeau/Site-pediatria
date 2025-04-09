@@ -18,3 +18,5 @@ This is a simple and informative website developed using **HTML** and **CSS**, d
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/your-repository-name.git
+
+This project, was in development!
