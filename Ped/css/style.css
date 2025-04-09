@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: georgia;
-  background-color: #c1ccd6;
+  
 }
 
 ul {
@@ -16,12 +16,16 @@ a {
 }
 
 a:hover {
-  color: rgb(64, 160, 224);
+  color: rgb(7, 147, 241);
 }
 
 #navbar {
+  background: linear-gradient(to left, #a5cbee, #e8edf1);
   padding: 1.5rem 2.5rem;
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #88abcf;
+  position: fixed;
+  width: 100%;
+  height: 4%;
 }
 
 #navbar-inner {
@@ -39,23 +43,31 @@ a:hover {
 
 #nav-links li {
   padding: 0.3rem;
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid #88abcf;
   border-radius: 3px;
+  background-color:rgb(197, 218, 241);
 }
 
 #nav-links li:hover {
   transition: 0.4s;
   padding: 0.3rem;
   border: 2px solid rgb(64, 160, 224);
-  border-radius: 3px;
+  border-radius: 3px rgb(112, 171, 233);
+  background-color: rgb(176, 205, 236);
+}
+
+.background{
+  background: linear-gradient(#a5cbee, #e8edf1, #a1c6e9);
 }
 
 .container {
+  
   display: flex;
   gap: 3rem;
-  padding: 2rem 2.5rem;
+  padding: 7rem 2.5rem;
   max-width: 1200px;
   margin: 0 auto;
+  
 }
 
 #posts-container {
@@ -70,6 +82,7 @@ a:hover {
   width: 100%;
   margin-bottom: 1rem;
   border-radius: 20px;
+  
 }
 
 .title,
@@ -90,53 +103,31 @@ a:hover {
   flex: 1 1 0;
 }
 
-#search-bar,
+
 #categories {
+  background: linear-gradient(#81afda, #bed1e0);
   padding: 1.5rem;
-  border: 2px solid #000000;
+  border: 2px solid #88abcf;
   margin-bottom: 1rem;
-  border-radius: 2px;
+  border-radius: 20px;
 }
 
-#search-bar h4,
+
 #categories h4 {
   margin-bottom: 1.5rem;
   font-size: 1.6rem;
 }
 
-#search-bar form {
-  display: flex;
-}
-
-#search-bar input {
-  padding: 0.5rem 1rem;
-  border: 2px solid #000000;
-  border-radius: 2px;
-}
-
-#search-bar input[type="submit"] {
-  cursor: pointer;
-  background-color: rgb(33, 124, 228);
-  color: #ffffff;
-  border: none;
-}
-
-#search-bar input[type="submit"]:hover {
-  transition: 0.4s;
-  cursor: pointer;
-  background-color: rgb(107, 156, 212);
-  color: #ffffff;
-  border: none;
-}
 
 #categories li {
   margin-bottom: 1rem;
 }
 
 #footer {
-  border-top: 2px solid #030303;
+  border-top: 2px solid #88abcf;
   padding: 3rem;
   text-align: center;
+  background: linear-gradient(#a5cbee, #9bc3e9, #6caae4);
 }
 
 #footer h2,
