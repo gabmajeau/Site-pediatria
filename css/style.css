@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: georgia;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  cursor: default;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  transition: 0.4s;
+}
+
+a:hover {
+  color: rgb(7, 147, 241);
+}
+
+#navbar {
+  background: linear-gradient(to left, #a5cbee, #e8edf1);
+  padding: 1.5rem 2.5rem;
+  border-bottom: 2px solid #88abcf;
+  position: fixed;
+  width: 100%;
+  height: 4%;
+}
+
+#navbar-inner {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+#nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+#nav-links li {
+  padding: 0.3rem;
+  border: 2px solid #88abcf;
+  border-radius: 3px;
+  background-color: rgb(197, 218, 241);
+}
+
+#nav-links li:hover {
+  transition: 0.4s;
+  padding: 0.3rem;
+  border: 2px solid rgb(64, 160, 224);
+  border-radius: 3px rgb(112, 171, 233);
+  background-color: rgb(176, 205, 236);
+}
+
+.background {
+  background: linear-gradient(#a5cbee, #e8edf1, #a1c6e9);
+}
+
+.container {
+  display: flex;
+  gap: 3rem;
+  padding: 7rem 2.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#posts-container {
+  flex: 3 1 0;
+}
+
+.post {
+  margin-bottom: 2.5rem;
+}
+
+.post img {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+}
+
+.title,
+.description,
+.author {
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+}
+.author {
+  color: #333;
+  font-weight: bold;
+}
+
+#sidebar {
+  flex: 1 1 0;
+}
+
+#categories {
+  background: linear-gradient(#81afda, #bed1e0);
+  padding: 1.5rem;
+  border: 2px solid #88abcf;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+}
+
+#categories h4 {
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+}
+
+#categories li {
+  margin-bottom: 1rem;
+}
+
+#footer {
+  border-top: 2px solid #88abcf;
+  padding: 3rem;
+  text-align: center;
+  background: linear-gradient(#a5cbee, #9bc3e9, #6caae4);
+}
+
+#footer h2,
+#footer p {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1020px) {
+  * {
+    flex-wrap: wrap;
+  }
+
+  p {
+    font-size: 115%;
+  }
+
+  h2 {
+    font-size: 170%;
+    margin-bottom: 2%;
+  }
+  #nav-links {
+    border-bottom: 2px #88abcf solid;
+    padding-left: 7%;
+    padding-right: 9%;
+    margin-left: -11%;
+    padding-bottom: 4%;
+    margin-bottom: 4%;
+    background: linear-gradient(to left, #a5cbee, #e8edf1);
+  }
+  .post {
+    margin-top: 8%;
+  }
+
+  footer {
+    h2 {
+      font-size: 130%;
+      margin-top: -5%;
+    }
+    p {
+      font-size: 90%;
+      margin-bottom: -5%;
+    }
+  }
+}
