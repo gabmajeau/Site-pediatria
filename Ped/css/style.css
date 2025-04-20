@@ -2,7 +2,14 @@
   padding: 0;
   margin: 0;
   font-family: georgia;
-  
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  cursor: default;
 }
 
 ul {
@@ -45,7 +52,7 @@ a:hover {
   padding: 0.3rem;
   border: 2px solid #88abcf;
   border-radius: 3px;
-  background-color:rgb(197, 218, 241);
+  background-color: rgb(197, 218, 241);
 }
 
 #nav-links li:hover {
@@ -56,18 +63,16 @@ a:hover {
   background-color: rgb(176, 205, 236);
 }
 
-.background{
+.background {
   background: linear-gradient(#a5cbee, #e8edf1, #a1c6e9);
 }
 
 .container {
-  
   display: flex;
   gap: 3rem;
   padding: 7rem 2.5rem;
   max-width: 1200px;
   margin: 0 auto;
-  
 }
 
 #posts-container {
@@ -82,7 +87,6 @@ a:hover {
   width: 100%;
   margin-bottom: 1rem;
   border-radius: 20px;
-  
 }
 
 .title,
@@ -103,7 +107,6 @@ a:hover {
   flex: 1 1 0;
 }
 
-
 #categories {
   background: linear-gradient(#81afda, #bed1e0);
   padding: 1.5rem;
@@ -112,12 +115,10 @@ a:hover {
   border-radius: 20px;
 }
 
-
 #categories h4 {
   margin-bottom: 1.5rem;
   font-size: 1.6rem;
 }
-
 
 #categories li {
   margin-bottom: 1rem;
@@ -135,8 +136,40 @@ a:hover {
   margin-bottom: 1rem;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 1020px) {
   * {
     flex-wrap: wrap;
+  }
+
+  p {
+    font-size: 115%;
+  }
+
+  h2 {
+    font-size: 170%;
+    margin-bottom: 2%;
+  }
+  #nav-links {
+    border-bottom: 2px #88abcf solid;
+    padding-left: 7%;
+    padding-right: 9%;
+    margin-left: -11%;
+    padding-bottom: 4%;
+    margin-bottom: 4%;
+    background: linear-gradient(to left, #a5cbee, #e8edf1);
+  }
+  .post {
+    margin-top: 8%;
+  }
+
+  footer {
+    h2 {
+      font-size: 130%;
+      margin-top: -5%;
+    }
+    p {
+      font-size: 90%;
+      margin-bottom: -5%;
+    }
   }
 }
